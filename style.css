@@ -1,0 +1,92 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+  
+.container {
+  background-color: lightblue;
+
+  /* Enabling flexbox */
+  /* display: flex;  */
+  
+  /* --- flex-direction options --- */
+  /* Controls the direction of the primary and secondary axis */
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+
+  /* --- flex-wrap options --- */
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap; */
+
+  /* --- gap options --- */
+  /* gap: 10px; */
+  /* First value is the gap between cols, second is rows */
+  /* gap: 20px 10px; */
+
+  /* --- justify-content options --- */
+  /* Controls the alignment on the primary axis (row or column)
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: space-evenly; */
+  /* Justify-content: space-around; */
+  /* justify-content: space-between; */
+
+
+  /* --- align-items options --- */
+  /* Controls alignment within our rows/columns on the secondary axis */
+  /* align-items: stretch; */
+  /* align-items: center; */
+  /* align-items: baseline; */
+  /* align-items: flex-end; */
+  /* align-items: flex-start; */
+
+  /* Height must be enabled for align-content to work */
+  /* height: 600px; */
+  
+  /* --- align-content options --- */
+  /* Controls alignment of the rows/columns themselves on the secondary axis */
+  /* align-content: center; */
+  /* align-content: stretch; */
+  /* align-content: flex-start; */
+  /* align-content: flex-end; */
+  /* align-content: space-between; */
+  /* align-content: space-around; */
+  /* align-content: space-evenly; */
+}
+
+
+.item {
+  width: 75px;
+  padding: 25px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+/* Apply these classes to item divs to modify their sizes */
+.big_text {
+  font-size: 25px;
+}
+
+.narrow {
+  width: 50px;
+  background-color: pink;
+}
+
+.wide { 
+  width: 250px;
+  background-color: blue;
+  color: white;
+}
+
+.mega_wide {
+  width: 500px;
+  background-color: green;
+}
+
+.short {
+  height: 10px;
+  background-color: darkred;
+}
+
+
