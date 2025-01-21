@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -21,8 +25,8 @@ html, body {
 
   /* --- gap options --- */
   /* gap: 10px; */
-  /* First value is the gap between cols, second is rows */
-  /* gap: 20px 10px; */
+  /* First value is the gap between rows, second is cols */
+  /* gap: 40px 10px; */
 
   /* --- justify-content options --- */
   /* Controls the alignment on the primary axis (row or column)
@@ -57,7 +61,7 @@ html, body {
 
 
 .item {
-  width: 75px;
+  width: 150px;
   padding: 25px;
   background-color: red;
   border: 1px solid black;
@@ -65,11 +69,12 @@ html, body {
 
 /* Apply these classes to item divs to modify their sizes */
 .big_text {
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .narrow {
-  width: 50px;
+  width: 60px;
+  padding: 10px;
   background-color: pink;
 }
 
@@ -86,6 +91,7 @@ html, body {
 
 .short {
   height: 10px;
+  padding: 15px;
   background-color: darkred;
 }
 
